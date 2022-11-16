@@ -18,7 +18,7 @@ public class AccordionItemsTextAppearPage extends Test_Base {
         changeTab();
     }
 
-    @Attachment
+
     public void manualTestingButtonClick() {
         element(AccordionItemsTextAppearLocators.manualTestingButton).click();
     }
@@ -38,7 +38,7 @@ public class AccordionItemsTextAppearPage extends Test_Base {
     public String cucumberGetDescription() {
         return element(AccordionItemsTextAppearLocators.cucumberDescription).getText();
     }
-
+    @Step("Open automation testing description")
     public void automationTestingButtonClick() {
         element(AccordionItemsTextAppearLocators.automationTestingButton).click();
     }
